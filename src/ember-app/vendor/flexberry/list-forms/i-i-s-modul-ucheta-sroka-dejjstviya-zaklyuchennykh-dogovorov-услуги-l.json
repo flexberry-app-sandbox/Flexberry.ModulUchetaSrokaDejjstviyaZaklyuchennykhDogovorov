@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-e",
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovУслугиL",
+  "className": "УслугиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+      "modelProjection": "УслугиL"
+    }
+  ]
+}

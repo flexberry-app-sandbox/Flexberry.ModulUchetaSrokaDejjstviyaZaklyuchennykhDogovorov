@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}

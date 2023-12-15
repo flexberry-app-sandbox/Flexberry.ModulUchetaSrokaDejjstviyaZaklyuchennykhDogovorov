@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovУслуги",
+  "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+  "className": "Услуги",
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "едВремени",
+      "type": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-ед-времени",
+      "flexberryType": "ЕдВремени",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "затрВремя",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуга",
+      "flexberryType": "Услуга",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УслугиE",
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "затрВремя",
+          "caption": "Затраченное время",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "едВремени",
+          "caption": "Единица времени",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "УслугиL",
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "затрВремя",
+          "caption": "Затраченное время",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "едВремени",
+          "caption": "Единица времени",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

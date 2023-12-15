@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.Objects", "Objects/Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.Objects.csproj", "c735f3ab-db50-4fc0-a1d2-37272d7eb190"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.Tests", "Tests/Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.Tests.csproj", "a0739678-bb15-4e4b-8c43-7a822a7a2c65"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ODataBackend", "ODataBackend/Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ODataBackend.csproj", "0e72bb71-69ca-418c-a43a-988428631d1a"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.IntegrationTests", "IntegrationTests/Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.IntegrationTests.csproj", "09341c17-ed6f-43bc-b5f7-978c9a5640a8"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		c735f3ab-db50-4fc0-a1d2-37272d7eb190.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		c735f3ab-db50-4fc0-a1d2-37272d7eb190.Debug|Any CPU.Build.0 = Debug|Any CPU
+		c735f3ab-db50-4fc0-a1d2-37272d7eb190.Release|Any CPU.ActiveCfg = Release|Any CPU
+		c735f3ab-db50-4fc0-a1d2-37272d7eb190.Release|Any CPU.Build.0 = Release|Any CPU
+		a0739678-bb15-4e4b-8c43-7a822a7a2c65.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		a0739678-bb15-4e4b-8c43-7a822a7a2c65.Debug|Any CPU.Build.0 = Debug|Any CPU
+		a0739678-bb15-4e4b-8c43-7a822a7a2c65.Release|Any CPU.ActiveCfg = Release|Any CPU
+		a0739678-bb15-4e4b-8c43-7a822a7a2c65.Release|Any CPU.Build.0 = Release|Any CPU
+		0e72bb71-69ca-418c-a43a-988428631d1a.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0e72bb71-69ca-418c-a43a-988428631d1a.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0e72bb71-69ca-418c-a43a-988428631d1a.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0e72bb71-69ca-418c-a43a-988428631d1a.Release|Any CPU.Build.0 = Release|Any CPU
+		09341c17-ed6f-43bc-b5f7-978c9a5640a8.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		09341c17-ed6f-43bc-b5f7-978c9a5640a8.Debug|Any CPU.Build.0 = Debug|Any CPU
+		09341c17-ed6f-43bc-b5f7-978c9a5640a8.Release|Any CPU.ActiveCfg = Release|Any CPU
+		09341c17-ed6f-43bc-b5f7-978c9a5640a8.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

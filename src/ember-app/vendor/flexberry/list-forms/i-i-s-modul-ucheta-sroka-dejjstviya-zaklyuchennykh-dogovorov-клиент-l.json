@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

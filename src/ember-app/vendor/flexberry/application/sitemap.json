@@ -1,0 +1,74 @@
+﻿{
+  "applicationCaption": "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "applicationTitle": "Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "items": [
+    {
+      "link": null,
+      "menuName": "модуль-учета",
+      "caption": "Модуль учета",
+      "title": "Модуль учета",
+      "children": [
+        {
+          "link": null,
+          "menuName": "справочник",
+          "caption": "Справочник",
+          "title": "Справочник",
+          "children": [
+            {
+              "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-l",
+              "menuName": null,
+              "caption": "Дир отд по раб с кл",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l",
+              "menuName": null,
+              "caption": "Клиент",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "документ",
+          "caption": "Документ",
+          "title": "Документ",
+          "children": [
+            {
+              "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l",
+              "menuName": null,
+              "caption": "Договор",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l",
+              "menuName": null,
+              "caption": "Расчет ост врем",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "прочее",
+          "caption": "Прочее",
+          "title": "Прочее",
+          "children": [
+            {
+              "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l",
+              "menuName": null,
+              "caption": "Услуги",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

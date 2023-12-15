@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "className": "Услуга",
+  "enumObjects": {
+    "РешУстнВопр": "Решение устного вопроса",
+    "ПомПровДок": "Помощь в проведении документа",
+    "ПомЗакрМес": "Помощь в закрытии месяца"
+  }
+}

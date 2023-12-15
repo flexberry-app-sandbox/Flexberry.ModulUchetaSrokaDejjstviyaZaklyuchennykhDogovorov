@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "className": "ТипДоговора",
+  "enumObjects": {
+    "Краткосрочный": "Краткосрочный",
+    "Долгосрочный": "Долгосрочный"
+  }
+}

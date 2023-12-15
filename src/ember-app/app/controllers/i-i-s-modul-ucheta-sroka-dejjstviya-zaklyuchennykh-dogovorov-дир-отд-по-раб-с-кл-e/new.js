@@ -1,0 +1,4 @@
+import IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovДирОтдПоРабСКлEController from '../i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-e';
+
+var IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovДирОтдПоРабСКлENewController = IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovДирОтдПоРабСКлEController;
+export default IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovДирОтдПоРабСКлENewController;

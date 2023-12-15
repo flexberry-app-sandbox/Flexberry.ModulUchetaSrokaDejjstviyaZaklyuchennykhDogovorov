@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovОказаниеУслуг",
+  "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-оказание-услуг",
+  "className": "ОказаниеУслуг",
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуги",
+      "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расчетОстВрем",
+      "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
+      "inverse": "оказаниеУслуг"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОказаниеУслугE",
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-оказание-услуг",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Услуги",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "затрВремя",
+              "caption": "Затраченное время",
+              "hidden": false,
+              "index": 2
+            },
+            {
+              "name": "едВремени",
+              "caption": "Единица времени",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Наименование услуги",
+          "name": "услуги",
+          "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

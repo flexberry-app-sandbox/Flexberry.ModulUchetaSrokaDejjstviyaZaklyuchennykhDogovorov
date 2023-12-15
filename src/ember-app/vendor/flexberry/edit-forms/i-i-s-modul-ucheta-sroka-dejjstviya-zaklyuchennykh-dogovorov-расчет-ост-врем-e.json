@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Договор",
+      "projection": "ДоговорL",
+      "detailModelName": null
+    },
+    {
+      "master": "услуги",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ОказаниеУслуг.Услуги",
+      "projection": "УслугиL",
+      "detailModelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-оказание-услуг"
+    }
+  ],
+  "external": false,
+  "caption": "Расчет ост врем",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovРасчетОстВремE",
+  "className": "РасчетОстВремE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
+      "modelProjection": "РасчетОстВремE"
+    }
+  ]
+}

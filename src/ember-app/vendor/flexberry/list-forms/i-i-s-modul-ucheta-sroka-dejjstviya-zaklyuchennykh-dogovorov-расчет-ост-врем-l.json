@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-e",
+  "external": false,
+  "caption": "Расчет ост врем",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovРасчетОстВремL",
+  "className": "РасчетОстВремL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
+      "modelProjection": "РасчетОстВремL"
+    }
+  ]
+}

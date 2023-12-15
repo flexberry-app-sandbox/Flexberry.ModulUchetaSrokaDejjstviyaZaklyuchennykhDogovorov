@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovУслугиE",
+  "className": "УслугиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги",
+      "modelProjection": "УслугиE"
+    }
+  ]
+}

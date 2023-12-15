@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov",
+  "className": "Статус",
+  "enumObjects": {
+    "Заключен": "Заключен",
+    "Расторжен": "Расторжен"
+  }
+}

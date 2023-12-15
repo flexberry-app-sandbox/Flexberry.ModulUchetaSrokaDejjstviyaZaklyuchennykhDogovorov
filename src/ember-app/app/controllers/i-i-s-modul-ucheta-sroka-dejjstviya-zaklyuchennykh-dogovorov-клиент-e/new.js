@@ -1,0 +1,4 @@
+import IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovКлиентEController from '../i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-e';
+
+var IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovКлиентENewController = IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovКлиентEController;
+export default IISModul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorovКлиентENewController;
