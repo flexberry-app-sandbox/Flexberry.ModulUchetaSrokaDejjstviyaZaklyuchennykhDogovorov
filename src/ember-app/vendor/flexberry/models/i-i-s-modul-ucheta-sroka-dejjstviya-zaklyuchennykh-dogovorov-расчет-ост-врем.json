@@ -52,7 +52,7 @@
   ],
   "projections": [
     {
-      "name": "РасчетОстВремE",
+      "name": "РасчетВремениE",
       "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
       "attrs": [
         {
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "name": "РасчетОстВремL",
+      "name": "РасчетВремениL",
       "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
       "attrs": [
         {

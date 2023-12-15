@@ -74,7 +74,7 @@
   "hasMany": [],
   "projections": [
     {
-      "name": "ДирОтдПоРабСКлE",
+      "name": "ДиректорE",
       "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл",
       "attrs": [
         {
@@ -124,7 +124,7 @@
       "hasMany": []
     },
     {
-      "name": "ДирОтдПоРабСКлL",
+      "name": "ДиректорL",
       "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл",
       "attrs": [
         {

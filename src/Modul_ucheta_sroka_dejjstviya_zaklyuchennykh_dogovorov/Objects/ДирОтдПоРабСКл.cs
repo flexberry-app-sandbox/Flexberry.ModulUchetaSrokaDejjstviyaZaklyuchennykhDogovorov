@@ -29,7 +29,7 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
     [AutoAltered()]
     [Caption("Директор")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("ДирОтдПоРабСКлE", new string[] {
+    [View("ДиректорE", new string[] {
             "idДиректора as \'Id директора\'",
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
@@ -37,7 +37,7 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
             "НомерТелефона as \'Номер телефона\'",
             "НомерПаспорта as \'Номер паспорта\'",
             "СерияПаспорта as \'Серия паспорта\'"})]
-    [View("ДирОтдПоРабСКлL", new string[] {
+    [View("ДиректорL", new string[] {
             "idДиректора as \'Id директора\'",
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
@@ -295,24 +295,24 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
         {
             
             /// <summary>
-            /// "ДирОтдПоРабСКлE" view.
+            /// "ДиректорE" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View ДирОтдПоРабСКлE
+            public static ICSSoft.STORMNET.View ДиректорE
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ДирОтдПоРабСКлE", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ДирОтдПоРабСКл));
+                    return ICSSoft.STORMNET.Information.GetView("ДиректорE", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ДирОтдПоРабСКл));
                 }
             }
             
             /// <summary>
-            /// "ДирОтдПоРабСКлL" view.
+            /// "ДиректорL" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View ДирОтдПоРабСКлL
+            public static ICSSoft.STORMNET.View ДиректорL
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ДирОтдПоРабСКлL", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ДирОтдПоРабСКл));
+                    return ICSSoft.STORMNET.Information.GetView("ДиректорL", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.ДирОтдПоРабСКл));
                 }
             }
         }

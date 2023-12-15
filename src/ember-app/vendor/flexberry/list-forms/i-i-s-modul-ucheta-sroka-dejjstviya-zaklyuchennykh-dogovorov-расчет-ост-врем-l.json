@@ -9,7 +9,7 @@
   "projections": [
     {
       "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем",
-      "modelProjection": "РасчетОстВремL"
+      "modelProjection": "РасчетВремениL"
     }
   ]
 }

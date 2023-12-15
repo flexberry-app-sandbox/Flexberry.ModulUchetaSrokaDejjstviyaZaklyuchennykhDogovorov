@@ -17,7 +17,7 @@
             {
               "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-l",
               "menuName": null,
-              "caption": "Дир отд по раб с кл",
+              "caption": "Директор",
               "title": "",
               "children": null
             },
@@ -46,7 +46,7 @@
             {
               "link": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l",
               "menuName": null,
-              "caption": "Расчет ост врем",
+              "caption": "Расчет оставшегося времени",
               "title": "",
               "children": null
             }

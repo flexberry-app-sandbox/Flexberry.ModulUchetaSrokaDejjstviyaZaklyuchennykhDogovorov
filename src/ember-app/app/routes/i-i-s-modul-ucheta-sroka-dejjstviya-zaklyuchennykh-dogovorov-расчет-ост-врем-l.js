@@ -6,9 +6,9 @@ export default ListFormRoute.extend({
 
     @property modelProjection
     @type String
-    @default 'РасчетОстВремL'
+    @default 'РасчетВремениL'
   */
-  modelProjection: 'РасчетОстВремL',
+  modelProjection: 'РасчетВремениL',
 
   /**
     Name of model to be used as list's records types.

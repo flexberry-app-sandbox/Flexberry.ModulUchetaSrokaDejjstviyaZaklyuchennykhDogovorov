@@ -5,7 +5,7 @@
       "displayAttributeName": null,
       "required": false,
       "relationName": "ДирОтдПоРабСКл",
-      "projection": "ДирОтдПоРабСКлL",
+      "projection": "ДиректорL",
       "detailModelName": null
     },
     {

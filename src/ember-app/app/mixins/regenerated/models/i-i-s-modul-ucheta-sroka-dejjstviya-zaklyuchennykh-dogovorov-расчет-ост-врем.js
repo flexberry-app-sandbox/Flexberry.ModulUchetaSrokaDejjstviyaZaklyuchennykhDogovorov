@@ -51,7 +51,7 @@ export let ValidationRules = {
 };
 
 export let defineProjections = function (modelClass) {
-  modelClass.defineProjection('РасчетОстВремE', 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем', {
+  modelClass.defineProjection('РасчетВремениE', 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем', {
     дата: attr('Дата', { index: 0 }),
     договор: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор', 'Номер договора', {
       статус: attr('Статус', { index: 2 }),
@@ -69,7 +69,7 @@ export let defineProjections = function (modelClass) {
     })
   });
 
-  modelClass.defineProjection('РасчетОстВремL', 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем', {
+  modelClass.defineProjection('РасчетВремениL', 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем', {
     дата: attr('Дата', { index: 0 }),
     договор: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор', 'Номер договора', {
       статус: attr('Статус', { index: 2 }),
